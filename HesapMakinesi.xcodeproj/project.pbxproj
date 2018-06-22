@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAA98CDA20D92DE400ABC0A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA98CD920D92DE400ABC0A1 /* AppDelegate.swift */; };
+		AAA98CDC20D92DE400ABC0A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA98CDB20D92DE400ABC0A1 /* ViewController.swift */; };
+		AAA98CDF20D92DE400ABC0A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA98CDD20D92DE400ABC0A1 /* Main.storyboard */; };
+		AAA98CE120D92DE600ABC0A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA98CE020D92DE600ABC0A1 /* Assets.xcassets */; };
+		AAA98CE420D92DE600ABC0A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA98CE220D92DE600ABC0A1 /* LaunchScreen.storyboard */; };
+		AAA98CEF20D9312400ABC0A1 /* Hesap.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA98CEE20D9312400ABC0A1 /* Hesap.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAA98CD620D92DE400ABC0A1 /* HesapMakinesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HesapMakinesi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA98CD920D92DE400ABC0A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAA98CDB20D92DE400ABC0A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAA98CDE20D92DE400ABC0A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAA98CE020D92DE600ABC0A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAA98CE320D92DE600ABC0A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAA98CE520D92DE600ABC0A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA98CEE20D9312400ABC0A1 /* Hesap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hesap.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAA98CD320D92DE400ABC0A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAA98CCD20D92DE400ABC0A1 = {
+			isa = PBXGroup;
+			children = (
+				AAA98CD820D92DE400ABC0A1 /* HesapMakinesi */,
+				AAA98CD720D92DE400ABC0A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAA98CD720D92DE400ABC0A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAA98CD620D92DE400ABC0A1 /* HesapMakinesi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAA98CD820D92DE400ABC0A1 /* HesapMakinesi */ = {
+			isa = PBXGroup;
+			children = (
+				AAA98CED20D930FD00ABC0A1 /* Controller */,
+				AAA98CEC20D930F200ABC0A1 /* Model */,
+				AAA98CEB20D930DD00ABC0A1 /* View */,
+				AAA98CD920D92DE400ABC0A1 /* AppDelegate.swift */,
+				AAA98CE020D92DE600ABC0A1 /* Assets.xcassets */,
+				AAA98CE220D92DE600ABC0A1 /* LaunchScreen.storyboard */,
+				AAA98CE520D92DE600ABC0A1 /* Info.plist */,
+			);
+			path = HesapMakinesi;
+			sourceTree = "<group>";
+		};
+		AAA98CEB20D930DD00ABC0A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAA98CDD20D92DE400ABC0A1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAA98CEC20D930F200ABC0A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAA98CEE20D9312400ABC0A1 /* Hesap.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AAA98CED20D930FD00ABC0A1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AAA98CDB20D92DE400ABC0A1 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAA98CD520D92DE400ABC0A1 /* HesapMakinesi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA98CE820D92DE600ABC0A1 /* Build configuration list for PBXNativeTarget "HesapMakinesi" */;
+			buildPhases = (
+				AAA98CD220D92DE400ABC0A1 /* Sources */,
+				AAA98CD320D92DE400ABC0A1 /* Frameworks */,
+				AAA98CD420D92DE400ABC0A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HesapMakinesi;
+			productName = HesapMakinesi;
+			productReference = AAA98CD620D92DE400ABC0A1 /* HesapMakinesi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAA98CCE20D92DE400ABC0A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Arda Yatman";
+				TargetAttributes = {
+					AAA98CD520D92DE400ABC0A1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AAA98CD120D92DE400ABC0A1 /* Build configuration list for PBXProject "HesapMakinesi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAA98CCD20D92DE400ABC0A1;
+			productRefGroup = AAA98CD720D92DE400ABC0A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAA98CD520D92DE400ABC0A1 /* HesapMakinesi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAA98CD420D92DE400ABC0A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA98CE420D92DE600ABC0A1 /* LaunchScreen.storyboard in Resources */,
+				AAA98CE120D92DE600ABC0A1 /* Assets.xcassets in Resources */,
+				AAA98CDF20D92DE400ABC0A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAA98CD220D92DE400ABC0A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA98CDC20D92DE400ABC0A1 /* ViewController.swift in Sources */,
+				AAA98CEF20D9312400ABC0A1 /* Hesap.swift in Sources */,
+				AAA98CDA20D92DE400ABC0A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAA98CDD20D92DE400ABC0A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA98CDE20D92DE400ABC0A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAA98CE220D92DE600ABC0A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA98CE320D92DE600ABC0A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAA98CE620D92DE600ABC0A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAA98CE720D92DE600ABC0A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAA98CE920D92DE600ABC0A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HesapMakinesi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arda.HesapMakinesi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAA98CEA20D92DE600ABC0A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HesapMakinesi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arda.HesapMakinesi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAA98CD120D92DE400ABC0A1 /* Build configuration list for PBXProject "HesapMakinesi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA98CE620D92DE600ABC0A1 /* Debug */,
+				AAA98CE720D92DE600ABC0A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA98CE820D92DE600ABC0A1 /* Build configuration list for PBXNativeTarget "HesapMakinesi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA98CE920D92DE600ABC0A1 /* Debug */,
+				AAA98CEA20D92DE600ABC0A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAA98CCE20D92DE400ABC0A1 /* Project object */;
+}
